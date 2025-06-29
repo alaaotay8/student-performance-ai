@@ -1,3 +1,24 @@
-fastapi
-pycaret
-pandas
+# Core web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+jinja2>=3.1.0
+
+# Static files serving
+aiofiles>=23.0.0
+
+# Data processing and ML
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Advanced ML libraries
+xgboost>=1.7.0
+lightgbm>=4.0.0
+imbalanced-learn>=0.11.0
+
+# Utilities
+python-multipart>=0.0.6
+
+# Production server
+gunicorn>=21.0.0
